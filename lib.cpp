@@ -1,15 +1,15 @@
-using namespace std;
-#include <iostream>
 #include "lib.h"
-float max(float array[], int dim){
-    int i=0;
-    while (i< dim){
+using namespace std;
 
-        if(array[0]>=array[i]){
-            i++;
+float maggiore(float array[], int dimensione){
+    int i=0;
+   for (; i<dimensione; i++){
+        if (array[0]>array[i]){
         }
-        else {
-            array[0] = array[i];
-            i++;
+       else
+      {
+           array[0]=array[i];
         }
     }
+   return array[0];
+}
