@@ -9,6 +9,7 @@ int main(){
         for (int i=0; i<dimensione; i++){
             cin>>array[i];
         }
+        
         cout<<maggiore(array, dimensione);
         return 0;
 }
