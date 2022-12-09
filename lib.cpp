@@ -6,8 +6,7 @@ float maggiore(float array[], int dimensione){
    for (; i<dimensione; i++){
         if (array[0]>array[i]){
         }
-       else
-      {
+       else{
            array[0]=array[i];
         }
     }
