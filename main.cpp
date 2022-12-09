@@ -6,8 +6,7 @@ int main() {
     int i;
     float array[dim];
     cin >> dim;
-
-    for(i=0; i<dim; i++){
+        for(i=0; i<dim; i++){
         cin >> array[i];
     }
 
