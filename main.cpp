@@ -4,7 +4,7 @@ using mainspace std;
 int main() {
     int dim;
     int i;
-    float array[i];
+    float array[dim];
     cin >> dim;
 
     for(i=0; i<dim; i++){
