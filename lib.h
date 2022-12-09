@@ -1,2 +1,2 @@
 
-float max(float, int);
+float max(float array[], int dim);
