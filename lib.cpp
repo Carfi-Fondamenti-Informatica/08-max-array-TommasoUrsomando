@@ -1,6 +1,7 @@
+using namespace std;
+#include <iostream>
 #include "lib.h"
 float max(float array[], int dim){
-    float n;
     int i=0;
     while (i< dim){
 
