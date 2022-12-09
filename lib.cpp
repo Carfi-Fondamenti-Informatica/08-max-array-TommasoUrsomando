@@ -1,5 +1,5 @@
-#include 'lib.h'
-int max(int array[], int dim){
+#include "lib.h"
+float max(float array[], int dim){
     float n;
     int i=0;
     while (i< dim){
@@ -12,5 +12,3 @@ int max(int array[], int dim){
             i++;
         }
     }
-return array[0];
-}
